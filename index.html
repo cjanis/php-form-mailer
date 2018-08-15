@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+<head>
+
+	<!-- styles -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<!-- jquery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="email.js"></script>
+
+	<!-- page info -->
+	<title>PHP/jQuery Form Mailer</title>
+
+</head>
+<body>
+		
+	<h1>PHP/jQuery Form Mailer</h1>
+	
+	<p>This is an example of a basic PHP/jQuery form mailer.</p>
+	
+	<form>
+		
+		<p><input type="text" name="name" id="name" placeholder="Full name*"></p>
+		<p><input type="email" name="email" id="email" placeholder="Email address*"></p>
+		<p><textarea name="message" id="message" placeholder="Your message*"></textarea></p>
+		<p><input type="submit" id="submit" value="Send it!"></p>
+		
+		<div id="loading" style="display: none;">
+			<p>Hang tight while we try to send your message ...</p>
+		</div>
+		
+	</form>
+
+</body>
+</html>
